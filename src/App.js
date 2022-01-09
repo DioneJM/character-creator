@@ -4,12 +4,14 @@ import CharacterEditor from './components/CharacterEditor';
 import Footer from './components/Footer';
 
 function App() {
-  return (
-    <>
-      <CharacterEditor />
-      <Footer />
-    </>
-  );
+    return (
+        <div style={{
+            isolation: 'isolate'
+        }}>
+            <CharacterEditor/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
