@@ -7,7 +7,7 @@
   min-width: 100vw;
 }
 
-.footerLink {
-  color: white;
+.footer a {
+  color: inherit;
 }
 
