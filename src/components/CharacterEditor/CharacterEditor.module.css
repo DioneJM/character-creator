@@ -1,13 +1,21 @@
+* {
+  --top-spacing: 128px;
+}
+
 .characterEditor {
-  padding-top: 128px;
+  padding-top: var(--top-spacing);
   padding-bottom: 64px;
+  width: inherit;
 }
 
 .maxWidthWrapper {
+  padding: 0 64px;
+  margin-left: 0px;
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +32,13 @@
 }
 
 .characterWrapper {
+  min-height: 500px;
+  width: 35%;
+  position: fixed;
+  right: 5%;
+  top: var(--top-spacing);
 }
 
 .controlColumn {
+  width: 50%;
 }
